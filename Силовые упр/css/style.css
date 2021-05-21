@@ -54,6 +54,7 @@ opacity: 1;
 position: fixed;
 z-index: 10;
 width: 100%;
+opacity: 80%;
 }
 .header__row{
 display: flex;
@@ -204,13 +205,12 @@ font-family: 'PT Sans', sans-serif;
 .content{
 display: flex;
 flex-direction: column;
-margin-top: 3.5%;
 height: 100%;
 position: relative;
 }
 .block1{
 position: relative;
-height: 100vh;
+height: 101vh;
 background-image: url(../img/обои.jpg);
 background-repeat: no-repeat;
 background-size: 100% 100%;
@@ -3232,7 +3232,7 @@ font-family: 'PT Sans', sans-serif;
 line-height: 1.2;
 margin-right: 10px;
 }
-@media only screen and (min-width : 1919px) {
+@media (min-width : 1919px) {
 body,html{
     height: 15000px;
 }
@@ -3240,13 +3240,13 @@ body,html{
     left: 49%;
 }
 .header{
-    height: 6%;
+    height: 7.2%;
 }
 .headerlink{
-    font-size: 30px;
+    font-size: 33px;
 }
 .dropbtn{
-    font-size: 30px;
+    font-size: 33px;
 }
 .dropdown_content{
     width: 210px;
@@ -3257,12 +3257,12 @@ body,html{
 }
 
 .block1{
-    height: 100vh;
+    height: 101vh;
     width: 100vw;
 }
 .text11{
     font-size: 50px;
-    top: 15%;
+    top: 9%;
 }
 .verticaltext{
     top: 70%;
@@ -3270,7 +3270,7 @@ body,html{
 }
 .line{
     height: 4px;
-    top: 30%;
+    top: 25%;
 }
 .buttonmain{
     width: 20%;
@@ -3340,8 +3340,9 @@ body,html{
     font-size: 45px;
 }
 .block5_title{
-    font-size: 90px;
+    font-size: 85px;
     left: 13%;
+    width: 200%;
 }
 .block5_text{
     left: 20%;
@@ -3556,11 +3557,21 @@ body,html{
     height: 33px;
     top: 30%;
 }
-.startech{
-    font-size: 25px;
+.bottom {
+    width: 100%;
+    height: 0.4%;
+    position: relative;
+    flex-direction: row;
+}
+.bottom_text{
+    left: 40%;
+    margin-top: 3px;
+}
+.startech {
+    font-size:30px;
 }
 .startech2{
-    font-size: 25px;
+    font-size:30px;
 }
 }
 @media (max-width: 1199px){

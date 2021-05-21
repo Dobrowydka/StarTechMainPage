@@ -744,6 +744,7 @@ height: 90%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-top: -0.3%;
 }
 .container8_text{
   margin-left: 4%;
@@ -1042,6 +1043,7 @@ font-weight: 600;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-top: -0.3%;
 }
 .container10_text{
   margin-left: 4%;
@@ -1328,6 +1330,7 @@ font-weight: 600;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-top: -0.3%;
 }
 .container12_text{
   margin-left: 4%;
@@ -1551,10 +1554,10 @@ font-weight: 100;
 
 @media (min-width: 1824px) {
 .headerlink {
-font-size: 28px;
+font-size: 33px;
 }
 .dropbtn {
-font-size: 28px;
+font-size: 33px;
 }
 .nav__link2 {
 font-size: 20px;
@@ -1576,11 +1579,11 @@ font-size: 22px;
 }
 .l {
     border-left: 5px solid white;
-    height: 666px;
+    height: 600px;
 }
 .nadpis {
 color: white;
-font-size: 55px;
+font-size: 45px;
 }
 .container2_text {
     font-size: 31px;
@@ -2040,7 +2043,7 @@ font-size: 35.5px;
     font-size: 47px;
 }
   .bottom_text {
-    margin-left: 45%;
+margin-left: 40%;
   }
 .total13 p {
       font-size: 38px;
@@ -2048,11 +2051,21 @@ font-size: 35.5px;
 .row13_2 h3 {
     margin-left: 33%;
 }
-.startech2 {
-    font-size: 25px;
+.bottom {
+  width: 100%;
+  height: 9%;
+  position: relative;
+  flex-direction: row;
+}
+.bottom_text{
+  left: 40%;
+  margin-top: 4px;
 }
 .startech {
-    font-size: 25px;
+  font-size:30px;
+}
+.startech2{
+  font-size:30px;
 }
 }
 

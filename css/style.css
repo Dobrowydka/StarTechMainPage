@@ -904,12 +904,12 @@ margin-bottom: 50px;
 background-size: 82% 80%; 
 }
 .verticaltext{
-top: 612px;
-left: -315px;
+top: 570px;
+left: -290px;
 padding: 0px 0px 0px 100px;   
 }
 .text_vertical{
-font-size: 53px;
+font-size: 47px;
 }
 .verticaltext:before{
 left: -120px;

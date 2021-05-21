@@ -687,6 +687,9 @@ margin-right: 10px;
     html,body{
         height: 6000px;
 }
+.header{
+    height: 7.2%;
+}
 .marathontext{
     font-size: 80px;
 }
@@ -694,10 +697,10 @@ margin-right: 10px;
     font-size: 50px;
 }
 .headerlink{
-    font-size: 30px;
+    font-size: 33px;
 }
 .dropbtn{
-    font-size: 30px;
+    font-size: 33px;
 }
 .verticaltext{
     font-size: 50px;
@@ -777,11 +780,22 @@ margin-right: 10px;
 .social_title{
     font-size: 55px;
 }
-.bottom{
-    height: 0.8%;
+.bottom {
+
+    width: 100%;
+    height: 1.1%;
+    position: relative;
+    flex-direction: row;
 }
 .bottom_text{
-    font-size: 23px;
+    left: 40%;
+    margin-top: 3px;
+}
+.startech {
+    font-size:30px;
+}
+.startech2{
+    font-size:30px;
 }
 }
 @media (max-width: 1199px){

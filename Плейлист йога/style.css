@@ -12,7 +12,7 @@ body:before {
     left: 0; right: 0; 
     top: 0; bottom: 0; 
     z-index: -1; 
-    background: url("img/йога.jpg") center / cover no-repeat;
+    background: url(img/йога.jpg) center / cover no-repeat;
     background-size: 100% 100%;
     filter: blur(3px);
    }
@@ -223,7 +223,7 @@ color:rgba(0, 0, 0, .1);
 
 .plyr--full-ui input[type="range"] {
 width:calc(100% - 39px);
-color: red;
+
 }
 
 .plyr__controls .plyr__controls__item.plyr__time {
@@ -307,6 +307,7 @@ margin-left:7px;
     text-transform: uppercase;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.2;
 }
 .headerlink:hover{
     color: rgb(182, 182, 182);
@@ -328,13 +329,14 @@ margin-left:7px;
 /* выпадающий список */
 .dropbtn{
     color: white;
-    font-size: 18px;
     text-decoration: none;
+    font-size: 18px;
+    margin-right: 30%;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    line-height: 1.2;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.2;
 }
     .header__row_links {
     list-style-type: none;
@@ -418,6 +420,42 @@ margin-left:7px;
               font-size: 13px;
               line-height: 1.2;
               font-weight: 100;
+              }
+
+              @media (min-width: 1919px)
+              {
+                .headerlink{
+                    font-size: 33px;
+                    }
+                    .dropbtn{
+                    font-size: 33px;
+                    }
+                    .header{
+                    display: flex;
+                    height: 7.2%;
+                    background-color:black;
+                    opacity: 80%;
+                    position: fixed;
+                    z-index: 10;
+                    width: 100%;
+                    }
+                    .bottom {
+
+                        width: 100%;
+                        height: 9%;
+                        position: relative;
+                        flex-direction: row;
+                    }
+                    .bottom_text{
+                        left: 40%;
+                        margin-top: 4px;
+                    }
+                    .startech {
+                        font-size:30px;
+                    }
+                    .startech2{
+                        font-size:30px;
+                    }
               }
        
     @media (max-width: 991px){
@@ -522,9 +560,13 @@ margin-left:7px;
                 .headerlink{
                     margin: 0px;
                     font-size:28px;
-                    padding-left: 7px;
+                    padding-left: 12px;
                     padding-bottom: 13px;
                     
+                }
+
+                .dropdown.ll {
+                    padding-left: 5px;
                 }
                 .headerlink:hover{
                     color: rgb(133, 133, 133);
@@ -535,9 +577,9 @@ margin-left:7px;
                 .dropbtn{
                     font-size: 28px;
                     padding: 0px;
-                    padding-left: 7px;
+                    padding-left: 12px;
                     pointer-events: none;
-                    margin-bottom: 3px;
+                    margin-bottom: 4px;
                 }
                 .aaoo{
                     display: flex;
@@ -608,17 +650,19 @@ margin-left:7px;
                 line-height: 0.7;
             }
         }
+
         @media (max-width: 575px){
+
             .header{
                 height: 4%;
                 
-            }
-           
-            li a, .dropbtn {
+                }
+                
+                li a, .dropbtn {
                 padding: 0px 0px;
                 font-size: 13px;
-            }
-            .menu-burger__header {
+                }
+                .menu-burger__header {
                 position: relative; /* задаем относительное позиционирование */
                 width: 20px; /* определяем размеры блока */
                 
@@ -626,114 +670,114 @@ margin-left:7px;
                 left: 90%;
                 top: 2px;
                 z-index: 11;
-            }
-            .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+                }
+                .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
                 display: block;
-            }
-            .menu-burger__header.open-menu span {
-                opacity:0; 
-                transition: 0.5s; 
-            }
-            .menu-burger__header.open-menu:before {
+                }
+                .menu-burger__header.open-menu span {
+                opacity:0;
+                transition: 0.5s;
+                }
+                .menu-burger__header.open-menu:before {
                 transform: rotate(38deg);
                 top: 16px;
                 transition: 0.4s;
-            }
-            .menu-burger__header.open-menu:after {
+                }
+                .menu-burger__header.open-menu:after {
                 transform: rotate(-38deg);
                 bottom: 16px;
                 transition: 0.4s;
-            }
+                }
                 .header__row_links{
-                    display: flex;
-                    flex-direction: column;
-                    height: 100%;
-                    width: 100%;
-                    justify-content:end;
-                    margin-top: 10px;
-                    margin-left: 0px;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                width: 100%;
+                justify-content:end;
+                margin-top: 10px;
+                margin-left: 0px;
                 }
                 .nav{
-                    position: absolute;
-                    top: 100%;
-                    left: 100%;
-                    background: rgb(0, 0, 0);
-                    box-shadow: #ccc;
-                    width: 40%;
-                    height: 165px;   
-                    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
-                    transition: all 0.4s ease;
-        
+                position: absolute;
+                top: 100%;
+                left: 100%;
+                background: rgb(0, 0, 0);
+                box-shadow: #ccc;
+                width: 40%;
+                height: 205px;
+                box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+                transition: all 0.4s ease;
+                
                 }
                 .nav.open-menu {
-                    left: 70%;
+                left: 60%;
                 }
                 .dropdown_content{
-                    visibility: hidden;
+                visibility: hidden;
                 }
                 .nav__link2{
-                    font-size: 6px;
-                    text-decoration: none;
-                    color: rgb(131, 131, 131);
-                    text-transform: uppercase;
-                    text-align: center;
-                    font-family: 'PT Sans', sans-serif;
-                    padding-left: 0px;
-                    padding-top: 2px;
-                    margin-left: -20px;
+                font-size: 9px;
+                text-decoration: none;
+                color: rgb(131, 131, 131);
+                text-transform: uppercase;
+                text-align: center;
+                font-family: 'PT Sans', sans-serif;
+                padding-left: 0px;
+                padding-top: 2px;
+                margin-left: -20px;
                 }
-
+                
                 .rar {
-                    
-                    margin-left: -20px;
+                
+                margin-left: -20px;
                 }
                 .nav__link2:hover{
-                    color: #fff;
-                    text-decoration: underline;
+                color: #fff;
+                text-decoration: underline;
                 }
-
+                
                 .headerlink{
-                    margin: 0px;
-                    font-size:14px;
-                    /* padding-left: 7px; */
-                    padding-bottom: 5px;
-                    
-                    
+                margin: 0px;
+                font-size:16px;
+                /* padding-left: 7px; */
+                padding-bottom: 11px;
+                
+                
                 }
                 .headerlink:hover{
-                    color: rgb(133, 133, 133);
+                color: rgb(133, 133, 133);
                 }
-             
+                
                 .dropbtn{
-                    font-size: 14px;
-                    padding: 0px;
-                    padding-left: 7px;
-                    pointer-events: none;
+                font-size: 15px;
+                padding: 0px;
+                padding-left: 7px;
+                pointer-events: none;
                 }
                 .aaoo{
-                    display: flex;
-                    flex-direction: column;
-                    padding: 0px;
-                    height: 100%;
-                    width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 0px;
+                height: 100%;
+                width: 100%;
                 }
-
-        
-              ol {
-                list-style-type: none; 
+                
+                
+                ol {
+                list-style-type: none;
                 margin: 0 0 0 50px;
                 padding: 0px 0 5px 0;
-                font-size: 8px;
-                position: relative;	
-            }
-            ol li.l {
-                position: relative;	
+                font-size: 11px;
+                position: relative;
+                }
+                ol li.l {
+                position: relative;
                 margin: 0 0 0 0;
                 padding: 0 0 5px 0;
                 line-height: 1;
-            }
-            ol li.l:before {
-                content: ''; 
+                }
+                ol li.l:before {
+                content: '';
                 display: inline-block;
                 position: absolute;
                 top: 3px;
@@ -747,19 +791,18 @@ margin-left:7px;
                 font-size: 18px;
                 border-radius: 50%;
                 border: 1px solid #ffffff;
-            }
-            /* Вертикальная линия */
-            ol:before {
-                content: ''; 
+                }
+                /* Вертикальная линия */
+                ol:before {
+                content: '';
                 position: absolute;
                 top: 2px;
                 left: -32px;
                 width: 1px;
-                height: 37px;
+                height: 45px;
                 border-left: 1px solid #b9b9b9;
-            }
-        
-           
+                }
+                
             .bottom{
                 height: 4%;
                 top: 0%;

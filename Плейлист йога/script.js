@@ -19,60 +19,60 @@ jQuery(function ($) {
         });
         // initialize playlist and controls
         var index = 0,
-            playing = false,
-            mediaPath = 'https://archive.org/download/1_20210430_20210430_1249/',
-            extension = '',
-            tracks = [{
-                "track": 1,
-                "name": "Tantra Yoga Masters - Escape Gravity",
-                "duration": " 3:29",
-                "file": "18"
-            }, {
-                "track": 2,
-                "name": "Serenity Calls - Quick Healing ",
-                "duration": "2:09",
-                "file": "17"
-            }, {
-                "track": 3,
-                "name": " Rebecca Shaw - Kids Study Piano ",
-                "duration": "  2:48",
-                "file": "16"
-            }, {
-                "track": 4,
-                "name": "Project Divinity - The Spirit Arises",
-                "duration": "2:16",
-                "file": "15"
-            }, {
-                "track": 5,
-                "name": "Project Divinity - Inside A Cocoon  ",
-                "duration": " 5:25",
-                "file": "14"
-            }, {
-                "track": 6,
-                "name": "Hampus Naeselius-Within Its Own Silent Shell",
-                "duration": "2:34",
-                "file": "6"
-            }, {
-                "track": 7,
-                "name": "Lucid But Dreaming-Falling",
-                "duration": "1:48",
-                "file": "8"
-            }, {
-                "track": 8,
-                "name": " Project Divinity - Eternal Love ",
-                "duration": "3:34",
-                "file": "11"
-            }, {
-                "track": 9,
-                "name": "Celestial Aeon Project (Matti Paalanen) - Cinematic Piano ",
-                "duration": "1:59",
-                "file": "10"
-            }, {
-                "track": 10,
-                "name": "Lucid But Dreaming - Lucid Dream  ",
-                "duration": "2:53",
-                "file": "9"
-            }],
+        playing = false,
+        mediaPath = 'https://archive.org/download/1_20210430_20210430_1249/',
+        extension = '',
+        tracks = [{
+            "track": 1,
+            "name": "Tantra Yoga Masters - Escape Gravity",
+            "duration": " 3:29",
+            "file": "18"
+        }, {
+            "track": 2,
+            "name": "Serenity Calls - Quick Healing ",
+            "duration": "2:09",
+            "file": "17"
+        }, {
+            "track": 3,
+            "name": " Rebecca Shaw - Kids Study Piano ",
+            "duration": "  2:48",
+            "file": "16"
+        }, {
+            "track": 4,
+            "name": "Project Divinity - The Spirit Arises",
+            "duration": "2:16",
+            "file": "15"
+        }, {
+            "track": 5,
+            "name": "Project Divinity - Inside A Cocoon  ",
+            "duration": " 5:25",
+            "file": "14"
+        }, {
+            "track": 6,
+            "name": "Hampus Naeselius-Within Its Own Silent Shell",
+            "duration": "2:34",
+            "file": "6"
+        }, {
+            "track": 7,
+            "name": "Lucid But Dreaming-Falling",
+            "duration": "1:48",
+            "file": "8"
+        }, {
+            "track": 8,
+            "name": " Project Divinity - Eternal Love ",
+            "duration": "3:34",
+            "file": "11"
+        }, {
+            "track": 9,
+            "name": "Celestial Aeon Project (Matti Paalanen) - Cinematic Piano ",
+            "duration": "1:59",
+            "file": "10"
+        }, {
+            "track": 10,
+            "name": "Lucid But Dreaming - Lucid Dream  ",
+            "duration": "2:53",
+            "file": "9"
+        }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
                     trackName = value.name,
