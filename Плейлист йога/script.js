@@ -20,7 +20,7 @@ jQuery(function ($) {
         // initialize playlist and controls
         var index = 0,
         playing = false,
-        mediaPath = 'https://archive.org/download/1_20210430_20210430_1249/',
+        mediaPath = 'https://archive.org/download/18_20210625_202106/',
         extension = '',
         tracks = [{
             "track": 1,
